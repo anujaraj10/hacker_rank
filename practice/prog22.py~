@@ -1,0 +1,15 @@
+# 22. Write a Python program to count the number 4 in a given list.
+count=0
+abc=list()
+while True:
+ inp= raw_input('entr the num')
+ if inp=='done':break
+ value=str(inp)
+ abc.append(value)
+print abc
+
+for i in abc:
+ if (i=4):
+  count=count+1
+print count
+

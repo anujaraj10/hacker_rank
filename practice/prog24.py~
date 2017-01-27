@@ -1,0 +1,9 @@
+# 24. Write a Python program to test whether a passed letter is a vowel or not.
+
+letter= raw_input('enter any alphabet')
+consonant= raw_input('enter any alphabet')
+if letter == ('a,e,i,o,u'):
+ print (vowel)
+else:
+ letter != ('a,e,i,o,u')
+ print (consonant)
